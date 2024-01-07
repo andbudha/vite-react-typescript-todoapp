@@ -1,10 +1,11 @@
 import './App.css';
+import { TodoList } from './components/TodoList/TodoList';
 
 function App() {
   return (
-    <div className={'main-container'}>
-      <div className={'app-box container md'}>
-        <h1>Hello</h1>
+    <div className={'main-container flex justify-center items-center'}>
+      <div className={'app-box container border border-blue-950 '}>
+        <TodoList />
       </div>
     </div>
   );
