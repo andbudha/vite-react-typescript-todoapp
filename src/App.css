@@ -1,0 +1,8 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+}
+.app-box {
+  background-color: aqua;
+}
