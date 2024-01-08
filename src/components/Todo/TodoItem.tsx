@@ -37,7 +37,7 @@ export const TodoItem = ({ title, status, id }: TodoItem) => {
         </div>
         <h3 className={`${status && styles.title_blurred}`}>{title}</h3>
       </div>
-      <div className="delete-icon flex justify-center items-center">
+      <div className="delete-icon flex justify-center items-center text-neutral-100">
         <MdDeleteOutline
           className={`${styles.delte_icon}`}
           onClick={() => deleteTodoHandler(id)}

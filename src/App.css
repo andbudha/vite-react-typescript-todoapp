@@ -1,8 +1,11 @@
 .main-container {
   height: 100vh;
   width: 100vw;
-  background-color: bisque;
+  background-color: #fafafa;
 }
+
 .app-box {
-  background-color: aqua;
+  background-color: #082f49;
+  width: fit-content;
+  min-height: 100px;
 }

@@ -31,7 +31,9 @@ export const TodoList = () => {
   });
   return (
     <div className="container sm flex flex-col justify-center items-center">
-      <h1>Todo List</h1>
+      <h1 className="text-lg font-bold	tracking-wide my-1 text-neutral-100">
+        Todo List
+      </h1>
       <Input />
       {list}
     </div>
