@@ -1,0 +1,30 @@
+.delte_icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+}
+
+.custom_checkbox {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background-color: #082f49;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.check_icon {
+  color: #fff;
+}
+
+.title_blurred {
+  opacity: 0.3;
+}
